@@ -393,30 +393,7 @@
 </body>
 
 <!-- Other scripts -->
-<script type="text/javascript">
-	window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-			16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
-			l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-		f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="伺服器上的某些檔案可能遺失或不正確。請清除瀏覽器快取後再試一次。若問題持續發生，請聯絡B082072或使用microsoft edge開啟。",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-	var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.scrolleffects"],function(d){var $ = d;$(document).ready(function(){try{
-		window.Muse.assets.check($);/* body */
-		Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-		Muse.Utils.prepHyperlinks(true);/* body */
-		Muse.Utils.initializeAnimations();/* animations */
-		Muse.Utils.fullPage('#page');/* 100% height page */
-		Muse.Utils.initWidget('#widgetu830', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu830 */
-		Muse.Utils.initWidget('#pamphletu784', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu784 */
-		Muse.Utils.initWidget('#pamphletu899', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu899 */
-		Muse.Utils.initWidget('#widgetu1178', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1178 */
-		$('#u189').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,20],"in":[0,Infinity]}]);/* scroll effect */
-		$('#u657').registerOpacityScrollEffect([{"fade":20,"in":[-Infinity,20],"opacity":0},{"opacity":100,"in":[20,20]},{"fade":50,"in":[20,Infinity],"opacity":100}]);/* scroll effect */
-		$('#u177').registerEdgeAnimateScrollEffect([{"play":false,"in":[-Infinity,1476]},{"play":true,"in":[1476,Infinity]}]);/* scroll effect */
-		$('#u179').registerEdgeAnimateScrollEffect([{"play":false,"in":[-Infinity,2830]},{"play":true,"in":[2830,Infinity]}]);/* scroll effect */
-		Muse.Utils.showWidgetsWhenReady();/* body */
-		Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-	}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
-</script>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- RequireJS script -->
@@ -431,7 +408,7 @@
 <footer class="footer">
 	<div class="mt-5 mb-0 bg-light " ><br>
 		<p class="text-center" mt-0 pt-5 text-black ">© 2022  Yu Cheng</p>
-		<p class="text-center" mt-0 pb-5 text-black ">請用microsoft edge或Chrome瀏覽器以及1024x768 pixels解析瀏覽本網站 本網站支援RWD</p><br>
+		<p class="text-center" mt-0 pb-5 text-black ">請用Microsoft edge或Chrome瀏覽器以及1024x768 pixels解析瀏覽本網站 本網站支援RWD</p><br>
 	</div></footer>
 <!-- 頁腳/結束 -->
 
