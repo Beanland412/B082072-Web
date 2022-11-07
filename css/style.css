@@ -1,0 +1,42 @@
+.header{
+	margin-bottom:80px;/*下方外距*/
+	margin-top:0px;/*上方外距*/
+	}
+.header img{
+	width:100%;/*圖片寬度*/
+
+	}
+.slo{
+	margin:50px 0;/*上下外距50 左右外距0*/
+	height:100px;/*給一個高度*/
+	}
+.box-content{
+	padding:20px;/*內距*/
+	boder:1px solid rgba(0,153,204,1);/*邊框*/
+	box-shadow:0 3px 9px #999;/*陰影*/
+	}
+.ooxx{
+	height:70px;/*高度*/
+	padding:20px 0;/*內距*/
+	}
+.slogan{
+	margin-bottom:80px;/*下方外距*/
+	margin-top:50px;/*上方外距*/
+	}	
+.box-content
+{padding:20px;
+border:1px solid#084565;
+box-shadow:0 3px 9px #333a3e}
+
+footer{
+	width: 100%;
+	hight:100%;
+	position: absolute;
+	left: 0;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+
+
