@@ -10,6 +10,7 @@
 	margin:50px 0;/*上下外距50 左右外距0*/
 	height:100px;/*給一個高度*/
 	}
+
 .box-content{
 	padding:20px;/*內距*/
 	boder:1px solid rgba(0,153,204,1);/*邊框*/
@@ -28,7 +29,7 @@
 border:1px solid#084565;
 box-shadow:0 3px 9px #333a3e}
 
-footer{
+.footer{
 	width: 100%;
 	hight:100%;
 	position: absolute;
@@ -37,6 +38,8 @@ footer{
 	font-weight: bold;
 	padding-top: 20px;
 }
+
+
 
 
 
