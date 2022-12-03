@@ -79,7 +79,9 @@ $(document).on('click','.q-btn',function(){
   },1000)
 });
 
-
+$('.fa-robot').click(function(){
+  $('.chatbot').fadeToggle()
+});
 
 +function ($) {
   'use strict';
