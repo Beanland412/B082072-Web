@@ -39,7 +39,43 @@ box-shadow:0 3px 9px #333a3e}
 	padding-top: 20px;
 }
 
+:root{
+	--green: #65ceba;
+	--gray: #f0f0f0;
+	--shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	--shadow2: 10px 10px 20px rgba(0,0,0,0.3);
+}
 
+.navbar a{
+	color: #fff;
+	transition: .5s
+}
+.navbar a:hover{
+	color: var(--green);
+}
+.navbar li{
+	position: relative
+}
+.navbar li::before{
+	position: absolute;
+	content: "";
+	background: var(--green);
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 3px;
+	transition: .5s
+}
+.navbar li:hover::before{
+	width: 100%;
+}
+.navbar-top{
+	background: rgba(255,255,255,0.8);
+	transition: .5s
+}
+.navbar-top a{
+	color: #000
+}
 
 
 
