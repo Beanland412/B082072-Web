@@ -29,6 +29,12 @@
 	display: block;
 	padding: 25px;
 }
+
+
+
+
+
+
 #rsayto{
 	display: absolute;
 	overflow-y: scroll;
@@ -58,5 +64,26 @@
 }
 
 
+.p-qu{
+	position: absolute;
+	right: 8px;
+	bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	background-color: #c3c3c3;
+	width: 95%;
+	display: block;
+}
 
-
+.r-ans{
+	position: absolute;
+	right: 8px;
+	bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	background-color: #c3c3c3;
+	width: 95%;
+	display: block;
+	】
