@@ -46,9 +46,15 @@ box-shadow:0 3px 9px #333a3e}
 	--shadow2: 10px 10px 20px rgba(0,0,0,0.3);
 }
 
+.navbar {
+	background: rgb(0,0,0,80%);
+	transition: .3s
+}
+
+
 .navbar a{
 	color: white;
-	transition: .5s
+	transition: 0.5ms
 }
 .navbar a:hover{
 	color: var(--green);
@@ -73,12 +79,12 @@ box-shadow:0 3px 9px #333a3e}
 	width: 100%;
 }
 .navbar-top{
-	background: rgb(0,0,0,0.3);
-	transition: .5s
+	background: rgb(225,225,225,10%);
+	transition: 0.3s;
 }
 .navbar-top a{
-	color: #000
-
+	color: #000000;
+	transition: 0.5ms
 }
 
 
