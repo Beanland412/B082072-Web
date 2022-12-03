@@ -59,6 +59,9 @@ function QA(){
 	}
 }
 
+
+
+
 +function ($) {
   'use strict';
 
@@ -109,6 +112,9 @@ function QA(){
   })
 
 }(jQuery);
+
+
+
 
 /* ========================================================================
  * Bootstrap: alert.js v3.3.7
@@ -2408,4 +2414,6 @@ function QA(){
     })
   })
 
+
 }(jQuery);
+

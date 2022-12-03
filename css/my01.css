@@ -57,3 +57,12 @@
 	width: 100%;
 }
 
+.key-word{
+.q-block{
+	height: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: solid 1px var(--green)
+}
+

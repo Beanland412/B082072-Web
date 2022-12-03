@@ -25,39 +25,34 @@
 
 
 
-
-
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-black">
-	<div class="container-fluid">
-		<a class="navbar-brand">披頭四</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" >
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">首頁</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" aria-current="shopping"  href="#">購物</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" aria-current="suggest" href="#">建議表單</a>
-				</li>
-			</ul>
-
-		</div>
-	</div>
-</nav>
 
 
 
 </body>
 
 <header class="header">
+
+	<nav class="navbar navbar-expand-lg fixed-top"><div class="container"><a href="#" class="navbar-brand">
+		<img src="images/img/musical-note.png"class="logo"></a>
+		<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+		<i class="fas fa-bars"></i></button>
+		<div id="navbarSupportedContent" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto"><li class="nav-item">
+			<a href="#home" class="nav-link">首　　頁</a></li>
+				<li class="nav-item"><a href="#about" class="nav-link">關於我們</a></li>
+				<li class="nav-item"><a href="#news" class="nav-link">疫情資訊</a></li>
+			<li class="nav-item"><a href="#shop" class="nav-link">商品一覽</a></li>
+				<li class="nav-item"><a href="#contact" class="nav-link">聯絡我們</a></li>
+		<li class="nav-item"><a href="#cart" data-toggle="modal" data-target="#cart" class="nav-link">購物車(0)</a></li></ul></div></div></nav>
+
+
+
+
+
+
 
 
 	<img src="images/img/1106.jpg" alt="banner"  class="img-fluid" >
@@ -120,7 +115,9 @@
 			<div class="mt-2 mb-2">
 
 				<button type="button" class="btn btn-group-vertical btn-lg btn-block  text-center" >
-					<a href="TheBeatles.html" title="點我查看"style="color: #171a1d" >查看</a></button>
+					<a href="TheBeatles.html" style="text-decoration:none;" title="點我查看"style="color:black" >查看</a></button>
+
+
 
 
 
@@ -198,6 +195,12 @@
 		<input type="text" size="35" id="rsay" placeholder="請輸入文字" onKeyDown="keyin(event)">
 	</div>
 </div>
+
+<div class="key-word"><button value="q1" class="btn q-btn">傳播</button>
+	<button value="q2" class="btn q-btn">感染</button>
+	<button value="q3" class="btn q-btn">星狀病毒</button>
+	<button value="q4" class="btn q-btn">治療</button></div>
+
 <div class="robotdiv">
  	<span id="robot">
 	<img src="images/img/techno.png" width="81" height="88" alt=""/> </span>
@@ -206,7 +209,6 @@
 
 
 <!-- Other scripts -->
-
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- RequireJS script -->
