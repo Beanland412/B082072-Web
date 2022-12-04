@@ -47,39 +47,48 @@ box-shadow:0 3px 9px #333a3e}
 }
 
 .navbar {
-	background: rgb(225,225,225,80%);
+	background: rgba(225,225,225,80%);
 	transition: .3s
 }
 
 
 .navbar a{
-	color: white;
+	color:#000000;
 	transition: 0.5ms
 }
 .navbar a:hover{
-	color: var(--green);
+	color: var(--white);
 }
-
-
 
 .navbar li{
 	position: relative
 }
-.navbar li::before{
+
+
+
+
+
+.navbar li::before {
 	position: absolute;
 	content: "";
-	background: var(--green);
+	background: var(--gray-dark);
 	left: 0;
 	bottom: 0;
 	width: 0;
 	height: 3px;
-	transition: .5s
+	transition: .5s;
 }
+
+
+
+
+
+
 .navbar li:hover::before{
 	width: 100%;
 }
 .navbar-top{
-	background: rgb(225,225,225,10%);
+	background: rgba(225,225,225,10%);
 	transition: 0.3s;
 }
 .navbar-top a{
@@ -89,4 +98,12 @@ box-shadow:0 3px 9px #333a3e}
 
 
 
+.navbar-toggler {
+	padding: 0.25rem 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: black;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+】
 
