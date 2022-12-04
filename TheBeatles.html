@@ -8,19 +8,12 @@
 
 	<meta name="viewport" content="width=device-width,inital-scale=1">
 	<!-- css文件載入 -->	
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
 	<meta name="generator" content="2017.0.0.363"/>
 
-	<script type="text/javascript">
-		// Update the 'nojs'/'js' class on the html node
-		document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
-		// Check that all required assets are uploaded and up-to-date
-		if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
-	</script>
 
 
 	<!-- CSS -->
@@ -96,230 +89,32 @@
  	<span id="robot">
 	<img src="images/img/techno.png" width="81" height="88" alt=""/> </span>
 </div>
+	</div></section></body>
 
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
+		<!-- Other scripts -->
+		<script src="js/jquery-3.2.1.min.js"></script>
 
-</div>
-<div class="grpelem" id="u561"><!-- custom html -->
-	<body>
-	<script type="text/javascript">
-		var items=document.getElementsByClassName("layer");
-		document.addEventListener('mousemove',function(evt){
-			var x=evt.clientX;
-			var y=evt.clientY;
-			//console.log(x);
-			var winWidth=window.innerWidth;
-			var winHeight=window.innerHeight;
-			var halfWidth=-winWidth/4;
-			var halfHeight=winHeight/4;
-			var rx=x-halfWidth;
-			var ry=halfHeight-y;
-			var max=30;
-			var length=items.length;
-			for(var i=0;i<length;i++){
-				var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-				var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-				items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-			}
-		},false);
-	</script>
-	</body>
-</div>
+		<script src="js/popper.min.js"></script>
 
-<body>
-
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-</div>
-
-<body>
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-</div>
-<body>
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-</div>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/vue.js"></script>
+		<script src="js/all.js"></script>
+		<script src="js/index.js"></script>
+		<!-- RequireJS script -->
+		<script src="scripts/require.js?crc=244322403" type="text/javascript" async data-main="scripts/museconfig.js?crc=168988563" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
 
 
-<body>
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-</div>
-
-<body>
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-</div>
-
-<body>
-<script type="text/javascript">
-	var items=document.getElementsByClassName("layer");
-	document.addEventListener('mousemove',function(evt){
-		var x=evt.clientX;
-		var y=evt.clientY;
-		//console.log(x);
-		var winWidth=window.innerWidth;
-		var winHeight=window.innerHeight;
-		var halfWidth=-winWidth/4;
-		var halfHeight=winHeight/4;
-		var rx=x-halfWidth;
-		var ry=halfHeight-y;
-		var max=30;
-		var length=items.length;
-		for(var i=0;i<length;i++){
-			var dx=(items[i].getBoundingClientRect().width/max)*(rx/-halfWidth);
-			var dy=(items[i].getBoundingClientRect().height/max)*(ry/-halfHeight);
-			items[i].style['transform']=items[i].style['-webkit-transform']='translate('+dx+'px,'+dy+'px)';
-		}
-	},false);
-</script>
-</body>
-
-
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<!-- RequireJS script -->
-<script src="scripts/require.js?crc=244322403" type="text/javascript" async data-main="scripts/museconfig.js?crc=168988563" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-
-
-<!-- 頁腳/開始 -->
+		<!-- 頁腳/開始 -->
 
 
 
 
-<footer class="footer">
-	<div class="mt-5 mb-0 bg-light " ><br>
-		<p class="text-center" mt-0 pt-5 text-black ">© 2022  Yu Cheng</p>
-		<p class="text-center" mt-0 pb-5 text-black ">請用Microsoft edge或Chrome瀏覽器以及1024x768 pixels解析瀏覽本網站 本網站支援RWD</p><br>
-	</div></footer>
-<!-- 頁腳/結束 -->
+		<footer class="footer">
+			<div class="mt-5 mb-0 bg-light " ><br>
+				<p class="text-center" mt-0 pt-5 text-black ">© 2022  Yu Cheng</p>
+				<p class="text-center" mt-0 pb-5 text-black ">請用Microsoft edge或Chrome瀏覽器以及1024x768 pixels解析瀏覽本網站 本網站支援RWD</p><br>
+			</div></footer>
+		<!-- 頁腳/結束 -->
 
 
 
