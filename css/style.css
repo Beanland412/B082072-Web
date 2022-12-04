@@ -47,25 +47,22 @@ box-shadow:0 3px 9px #333a3e}
 }
 
 .navbar {
-	background: rgba(225,225,225,80%);
-	transition: .3s
+	background: #c8cdd9cf;
+	transition: .5s
 }
 
 
 .navbar a{
-	color:#000000;
-	transition: 0.5ms
+	color:#f0f0f0;
+	transition: .5ms
 }
 .navbar a:hover{
-	color: var(--white);
+	color: var(--#6c757d);
 }
 
 .navbar li{
 	position: relative
 }
-
-
-
 
 
 .navbar li::before {
@@ -81,19 +78,18 @@ box-shadow:0 3px 9px #333a3e}
 
 
 
-
-
-
 .navbar li:hover::before{
 	width: 100%;
 }
+
 .navbar-top{
-	background: rgba(225,225,225,10%);
+	background: rgba(225,225,225,60%);
 	transition: 0.3s;
 }
+
 .navbar-top a{
 	color: #000000;
-	transition: 0.5ms
+	transition: .5ms
 }
 
 
@@ -106,4 +102,6 @@ box-shadow:0 3px 9px #333a3e}
 	border: 1px solid transparent;
 	border-radius: 0.25rem;
 】
+
+
 
