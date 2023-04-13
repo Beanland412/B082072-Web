@@ -61,6 +61,28 @@ function QA(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $('.fa-robot').click(function(){
   $('.chatbot').fadeToggle()
 });
