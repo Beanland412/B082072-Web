@@ -52,10 +52,10 @@ function QA(){
 		return'<div class="rtxt">披頭四音樂</div>'
 	}
 	if(c%3==1){
-		return'<div class="rtxt">音樂語法寫不進去</div>'
+		return'<div class="rtxt">關於披頭四</div>'
 	}
 	if(c%3==2){
-		return'<div class="rtxt">有任何問題都可以向我詢問</div>'
+		return'<div class="rtxt">感謝您提供建議與問題，稍後將有專人為您服務！</div>'
 	}
 }
 
